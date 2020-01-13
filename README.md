@@ -1,4 +1,4 @@
-# beacon-decoder
+# beacondecoder
 
 A Python library for decoding the following types of Bluetooth LE Beacons:
 
@@ -6,7 +6,7 @@ Eddystone TLM
 Ruuvi RAWv2
 Ruuvi RAWv1
 
-The beacon-decoder will parse the packet whether it be a string or the raw packet. It will then check what type of packet and return a dictionary containint the decoded information.
+The beacondecoder will parse the packet whether it be a string or the raw packet. It will then check what type of packet and return a dictionary containint the decoded information.
 
 It will return 4 formats of data:
 
