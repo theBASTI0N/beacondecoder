@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'beacon-decoder',
   packages = ['beacon-decoder'],
-  version = '0.1',  
+  version = '0.2',  
   license='MIT',
   description = 'A Python library for decoding certain types of Bluetooth LE Beacons',
   author = 'theBASTI0N',
   author_email = 'theBASTI0Ncode@gmail.com',
   url = 'https://github.com/theBASTI0N/beacon-decoder',
-  download_url = 'https://github.com/theBASTI0N/beacon-decoder/archive/0.1.tar.gz',
+  download_url = 'https://github.com/theBASTI0N/beacon-decoder/archive/0.2.tar.gz',
   keywords = ['BLE', 'decode', 'iot'],
   install_requires=[],
   classifiers=[
