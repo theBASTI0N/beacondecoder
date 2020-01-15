@@ -100,7 +100,7 @@ def decode(data):
         
         format = 1
         d = str(data)
-        d = d[36:]
+        d = d.split("AAFE2000")[1]
         battery_voltage = int(d[1:4], 16) / 1000
         temp1= twos_complement(d[4:6], 8)
         temp2 = int(d[6:8], 16) / 256
