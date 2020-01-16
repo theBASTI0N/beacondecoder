@@ -1,5 +1,7 @@
 # beacondecoder
 
+![PyPI](https://img.shields.io/pypi/v/beacondecoder)
+
 A Python library for decoding the following types of Bluetooth LE Beacons:
 
 Eddystone TLM
